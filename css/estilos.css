@@ -166,7 +166,7 @@ body {
 
 .knowledge {
     background-color: #e5e5f7;
-    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-image: #444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
@@ -209,7 +209,7 @@ body {
 }
 
 .price__element{
-    background-color: #e5e5f7;
+    background-color: #ffffff;
     text-align: center;
     border-radius: 10px;
     width: 330px;
@@ -247,9 +247,9 @@ body {
 .price__items{
     margin-top: 35px;
     display: grid;
-    gap: 1em;
-    font-weight: 300;
-    font-size: 1.2rem;
+    gap: 0em;
+    font-weight: 0;
+    font-size: 1rem;
     margin-bottom: 50px;
     color: var(--color-items);
 }
